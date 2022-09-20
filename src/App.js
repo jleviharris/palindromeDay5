@@ -18,8 +18,8 @@ function App() {
       returnString = returnString + newString[i];
     }
     if (returnString === newString) {
-      setAnswer('"' + string + '"' + " is a palindrom");
-    } else setAnswer('"' + string + '"' + " is not a palindrom");
+      setAnswer('"' + string + '"' + " is a palindrome");
+    } else setAnswer('"' + string + '"' + " is not a palindrome");
   }
 
   const handleSubmit = (e) => {
