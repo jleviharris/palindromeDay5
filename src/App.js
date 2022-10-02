@@ -29,6 +29,7 @@ function App() {
 
   return (
     <div className="App">
+    <div className="container">
       <h1>Palindrome Check</h1>
       <form onSubmit={handleSubmit}>
         {" "}
@@ -40,6 +41,7 @@ function App() {
         <button className="bttn">Check</button>
       </form>
       <div className="answer">{answer}</div>
+    </div>
     </div>
   );
 }
